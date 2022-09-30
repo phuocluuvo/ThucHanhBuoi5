@@ -1,11 +1,6 @@
 import { useNavigation } from "@react-navigation/native";
 import React, { useLayoutEffect } from "react";
 import { Text, TouchableOpacity, View } from "react-native";
-import {
-  ArrowUturnLeftIcon,
-  Bars3Icon,
-  HomeIcon,
-} from "react-native-heroicons/solid";
 
 function MainScreen() {
   const nav = useNavigation();
